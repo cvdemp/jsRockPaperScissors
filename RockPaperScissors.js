@@ -6,11 +6,11 @@ if (computerChoice < 0.34) {
 	computerChoice = "rock";
 }
     else if(computerChoice <= 0.67) {
-	computerChoice = "paper";
-}
+	     computerChoice = "paper";
+     }
     else {
-	computerChoice = "scissors";
-}
+	     computerChoice = "scissors";
+     }
 
 console.log("Computer: " + computerChoice);
 
